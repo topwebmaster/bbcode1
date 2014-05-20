@@ -20,7 +20,7 @@ echo bbcode($var);
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/wysibb/jquery.wysibb.min.js"></script>
-<script src="/wysibb/lang/fr.js"></script>
+<script src="/wysibb/lang/ru.js"></script>
 <script>
     $(document).ready(function () {
         $("#editor").wysibb()
