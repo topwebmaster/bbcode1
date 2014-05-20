@@ -23,7 +23,10 @@ echo bbcode($var);
 <script src="/wysibb/lang/ru.js"></script>
 <script>
     $(document).ready(function () {
-        $("#editor").wysibb()
+        var wbbOpt = {
+            buttons: "bold,italic,underline,strike"
+        }
+        $("#editor").wysibb(wbbOpt);
     })
 </script>
 </body>
